@@ -6,7 +6,10 @@ return {
         conform.setup({
             formatters_by_ft = {
                 lua = { "stylua" },
-                -- TODO: Other filetypes
+                javascript = { "oxfmt" },
+                typescript = { "oxfmt" },
+                jsx = { "oxfmt" },
+                tsx = { "oxfmt" },
             },
         })
         vim.api.nvim_create_autocmd("BufWritePre", {
