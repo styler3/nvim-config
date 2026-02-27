@@ -8,6 +8,7 @@ return {
                 lua = { "stylua" },
                 javascript = { "oxfmt" },
                 typescript = { "oxfmt" },
+                markdown = { "oxfmt" },
                 jsx = { "oxfmt" },
                 tsx = { "oxfmt" },
             },
