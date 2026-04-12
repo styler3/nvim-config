@@ -3,8 +3,10 @@ return {
     init = function()
         local lint = require("lint")
         lint.linters_by_ft = {
-            javascript = { "oxlint" },
-            typescript = { "oxlint" },
+            javascript = { "eslint" },
+            typescript = { "eslint" },
+            jsx = { "eslint" },
+            tsx = { "eslint" },
         }
 
         vim.api.nvim_create_autocmd({ "BufWritePost" }, {
