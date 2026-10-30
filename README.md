@@ -16,6 +16,16 @@ It also runs a TypeScript language server. For it to work, you'll need the appro
 {whatever-js-package-manager} install -g typescript typescript-language-server
 ```
 
+## Themes
+
+Copy the example theme config:
+
+```bash
+cp lua/theme/{example,}.lua
+```
+
+You can edit `lua/theme.lua` to pick a different theme.
+
 [neovim]: https://neovim.io/
 [neovide]: https://neovide.dev/
 [Lazy]: https://www.lazyvim.org/
